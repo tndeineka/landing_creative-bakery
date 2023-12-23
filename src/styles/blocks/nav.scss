@@ -26,7 +26,6 @@
     color: $main-text-color;
 
     &:hover {
-      font-weight: 500;
       border-bottom: 1px solid $main-text-color;
     }
 
@@ -55,6 +54,10 @@
 
     &--footer {
       color: $white-color;
+
+      &:hover {
+        color: $grey-text-color;
+      }
     }
   }
 }
